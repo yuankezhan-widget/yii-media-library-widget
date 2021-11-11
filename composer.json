@@ -14,5 +14,6 @@
             "email": "741698941@qq.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {}
 }
