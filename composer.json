@@ -7,6 +7,7 @@
             "KartikV\\Yii2WidgetMediaLibrary\\": "src/"
         }
     },
+    "license": "MIT",
     "authors": [
         {
             "name": "张海春",
