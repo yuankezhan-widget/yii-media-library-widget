@@ -19,18 +19,17 @@ use yuankezhan\mediaLibrary\MediaLibrary; ?>
 
 <button class="showImgBox">测试</button>
 
-<?= MediaLibrary::widget([
-    'imgListUrl' => Url::to(['media/get-img-list']),
-    'groupListUrl' => Url::to(['media/group-list']),
-    'imgAddUrl' => Url::to(['upload/upload']),
-    'groupAddUrl' => Url::to(['media/add-group']),
-    'sureCallback' => 'aaa',
-    'showClass' => 'showImgBox',
-])?>
+<?= MediaLibrary::widget()?>
 <script>
-    let aaa = function (aa) {
-        console.log(aa);
-    }
+    var editorMediaUpload = new mediaLibrary().init({
+        imgListUrl : "<?=$mediaConfig['imgListUrl']?>",
+        groupListUrl : "<?=$mediaConfig['groupListUrl']?>",
+        addImgUrl : "<?=$mediaConfig['addImgUrl']?>",
+        addGroupUrl : "<?=$mediaConfig['addGroupUrl']?>",
+        sureCallback : "addImg",
+    });
+
+    editorMediaUpload.showBox();
 </script>
 
 ```
