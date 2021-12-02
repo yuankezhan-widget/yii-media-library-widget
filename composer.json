@@ -12,11 +12,5 @@
             "name": "张海春",
             "email": "741698941@qq.com"
         }
-    ],
-    "minimum-stability": "beta",
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
-        }
-    }
+    ]
 }
