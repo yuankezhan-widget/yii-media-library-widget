@@ -1,5 +1,5 @@
 {
-    "name": "yuankezhan/yii2-widget-media-library",
+    "name": "yuankezhan/yii-media-library-widget",
     "type": "library",
     "license": "MIT",
     "autoload": {
