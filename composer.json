@@ -12,5 +12,8 @@
             "name": "张海春",
             "email": "741698941@qq.com"
         }
-    ]
+    ],
+    "require": {
+        "yuankezhan/yii-base-assets": "1.*"
+    }
 }

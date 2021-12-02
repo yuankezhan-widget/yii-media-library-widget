@@ -23,8 +23,10 @@ class MediaLibraryAssets extends AssetBundle
      * {@inheritdoc}
      */
     public $js = [
-        'js/jquery.js',
         'js/iconfont.js',
         'js/media.js',
+    ];
+    public $depends = [
+        'yuankezhan\yiiBaseAssets\BaseAssets',
     ];
 }
